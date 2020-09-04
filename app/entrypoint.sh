@@ -72,4 +72,6 @@ if [ "$1" = 'mattermost' ]; then
   echo "Starting mattermost"
 fi
 
+/init.sh
+
 exec "$@"
